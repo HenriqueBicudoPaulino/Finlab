@@ -15,6 +15,7 @@ finlab/
 ```bash
 cd backend
 npm install
+npm install @nestjs/config
 npm run start:dev
 ```
 
@@ -27,6 +28,7 @@ Endpoint de leads: POST http://localhost:3000/leads
 
 ```bash
 cd frontend
+npm create vite@latest . -- --template react
 npm install
 npm run dev
 ```
